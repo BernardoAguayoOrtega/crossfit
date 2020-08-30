@@ -4,11 +4,16 @@
   "description": "This is a hipotetic exercise, for create a marketing website for a crossfit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel ./public/index.html open",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "no for the moment"
+    "url": "git+https://github.com/BernardoAguayoOrtega/crossfit.git"
   },
   "keywords": [
     "react.js",
@@ -16,5 +21,15 @@
     "marketing"
   ],
   "author": "Bernardo Aguayo Ortega",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3"
+  },
+  "homepage": "https://bernardoaguayoortega.github.io/crossfit"
 }
