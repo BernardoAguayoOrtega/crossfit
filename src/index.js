@@ -6,6 +6,10 @@ import { render } from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom';
 //import app component
 import { App } from './components/App';
+//import theme provider
+import { ThemeProvider } from '@material-ui/core/styles';
+//import theme
+import { theme } from './Theme';
 
 //create root const
 const root = document.getElementById('root');
@@ -13,7 +17,9 @@ const root = document.getElementById('root');
 //render the app
 render(
 	<Router basename='/'>
-		<App />
+		<ThemeProvider theme={theme}>
+			<App />
+		</ThemeProvider>
 	</Router>,
 	root,
 );
