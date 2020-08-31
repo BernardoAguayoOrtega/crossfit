@@ -8,9 +8,9 @@ import Button from '@material-ui/core/Button';
 import { Container } from './styles';
 
 //create and export Feature component
-export const Feature = ({ title, description }) => {
+export const Feature = ({ title, description, background='https://images.unsplash.com/photo-1580086320409-b5f0cb225046' }) => {
 	return (
-		<Container background={""}>
+		<Container background={background}>
 			<Typography>{title}</Typography>
 			<Typography>{description}</Typography>
 			<Button variant='contained' color='primary' href='#'>
