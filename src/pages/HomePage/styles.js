@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 //create and export container styled component
-export const Container = styled.div`
+export const Page = styled.div`
 	background: #0f2027; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to right,
@@ -16,4 +16,6 @@ export const Container = styled.div`
 		#203a43,
 		#0f2027
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 1rem;
+	height: 100vh
 `;
