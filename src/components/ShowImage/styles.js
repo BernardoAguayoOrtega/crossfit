@@ -10,10 +10,14 @@ export const ImageContainer = styled.div`
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url(${image});
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
   height: 80vh;
 `;
 
 //create and export title
 export const Title = styled.div`
-  background: black;
+  background: rgba(0,0,0,.5);
+  width: 50%
 `
