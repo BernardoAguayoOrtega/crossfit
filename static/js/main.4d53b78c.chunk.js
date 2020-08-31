@@ -1,2 +1,0 @@
-(this["webpackJsonpmarketing-website"]=this["webpackJsonpmarketing-website"]||[]).push([[0],{22:function(e,t,n){e.exports=n(32)},32:function(e,t,n){"use strict";n.r(t);var a=n(1),r=n.n(a),c=n(16),i=n(20),m=n(44),o=function(){return r.a.createElement(r.a.Fragment,null,r.a.createElement(m.a,{variant:"h3",color:"primary"},"I'm the app!!"))},s=document.getElementById("root");Object(c.render)(r.a.createElement(i.a,{basename:"/"},r.a.createElement(o,null)),s)}},[[22,1,2]]]);
-//# sourceMappingURL=main.4d53b78c.chunk.js.map
