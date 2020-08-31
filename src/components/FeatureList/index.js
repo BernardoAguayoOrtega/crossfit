@@ -16,8 +16,6 @@ export const FeatureList = () => {
 		setData(allItems);
 	}, []);
 
-	console.log(data);
-
 	return (
 		<Grid>
 			{data.map((item) => (
