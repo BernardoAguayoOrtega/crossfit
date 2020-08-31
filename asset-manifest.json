@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/crossfit/static/js/main.b1eee713.chunk.js",
-    "main.js.map": "/crossfit/static/js/main.b1eee713.chunk.js.map",
+    "main.js": "/crossfit/static/js/main.a92c2e71.chunk.js",
+    "main.js.map": "/crossfit/static/js/main.a92c2e71.chunk.js.map",
     "runtime-main.js": "/crossfit/static/js/runtime-main.20fb1a81.js",
     "runtime-main.js.map": "/crossfit/static/js/runtime-main.20fb1a81.js.map",
-    "static/js/2.9bc52810.chunk.js": "/crossfit/static/js/2.9bc52810.chunk.js",
-    "static/js/2.9bc52810.chunk.js.map": "/crossfit/static/js/2.9bc52810.chunk.js.map",
+    "static/js/2.af0cb079.chunk.js": "/crossfit/static/js/2.af0cb079.chunk.js",
+    "static/js/2.af0cb079.chunk.js.map": "/crossfit/static/js/2.af0cb079.chunk.js.map",
     "index.html": "/crossfit/index.html",
-    "precache-manifest.a8f52afff37b8cb784d6132202430d25.js": "/crossfit/precache-manifest.a8f52afff37b8cb784d6132202430d25.js",
+    "precache-manifest.6d7cfbfcae9340b192c3bd8390f1f6ee.js": "/crossfit/precache-manifest.6d7cfbfcae9340b192c3bd8390f1f6ee.js",
     "service-worker.js": "/crossfit/service-worker.js",
-    "static/js/2.9bc52810.chunk.js.LICENSE.txt": "/crossfit/static/js/2.9bc52810.chunk.js.LICENSE.txt"
+    "static/js/2.af0cb079.chunk.js.LICENSE.txt": "/crossfit/static/js/2.af0cb079.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.20fb1a81.js",
-    "static/js/2.9bc52810.chunk.js",
-    "static/js/main.b1eee713.chunk.js"
+    "static/js/2.af0cb079.chunk.js",
+    "static/js/main.a92c2e71.chunk.js"
   ]
 }
