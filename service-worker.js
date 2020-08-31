@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crossfit/precache-manifest.16eb657a15219173b794d1b563a0d636.js"
+  "/crossfit/precache-manifest.29c3dcab752aff5656409357b556efc1.js"
 );
 
 self.addEventListener('message', (event) => {
